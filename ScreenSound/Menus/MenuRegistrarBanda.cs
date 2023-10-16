@@ -16,7 +16,7 @@ namespace ScreenSound.Menus
             bandasRegistradas.Add(nomeDaBanda, banda);
 
 
-            var client = new OpenAIAPI("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");
+            var client = new OpenAIAPI("");
 
             var chat = client.Chat.CreateConversation();
 
